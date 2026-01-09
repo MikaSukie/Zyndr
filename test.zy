@@ -1,0 +1,6 @@
+extern fn puts(string s) <int>;
+
+fn main() <int64> {
+    puts("test");
+    return int64(0);
+}
